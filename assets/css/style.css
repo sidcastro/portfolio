@@ -105,7 +105,7 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.4rem;
-  margin-bottom: var(--space-5);
+  margin-bottom: var(--space-4);
 }
 
 .chip {
@@ -118,6 +118,21 @@ nav a:hover {
   border: 0.5px solid var(--border-solid);
   border-radius: 999px;
   color: var(--muted);
+}
+
+.scroll-link {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #3a5a6a;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.scroll-link:hover {
+  color: var(--text);
 }
 
 .btn {
