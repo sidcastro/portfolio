@@ -508,7 +508,7 @@ h3 {
 /* ── FOOTER ───────────────────────────────── */
 footer {
   border-top: 0.5px solid var(--border);
-  padding: var(--space-5) 0;
+  padding: var(--space-5) var(--space-6);
   display: flex;
   justify-content: space-between;
   align-items: center;
