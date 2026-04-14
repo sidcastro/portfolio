@@ -185,7 +185,7 @@ h3 {
 }
 
 .caption {
- font-size: 0.88rem;
+  font-size: 0.88rem;
   font-weight: 400;
   color: #4a4a4a;
   margin-top: var(--space-2);
@@ -296,7 +296,7 @@ h3 {
 
 /* ── BULLETS ──────────────────────────────── */
 .work-bullets {
-   margin: var(--space-3) 0 var(--space-5);
+  margin: var(--space-3) 0 var(--space-5);
   padding-left: 0;
   list-style: none;
   line-height: 1.65;
@@ -380,10 +380,7 @@ h3 {
 }
 
 .site-meta {
-  /* font-size: 0.76rem;
-  font-weight: 400;
-  color: var(--muted); */
-   font-size: 0.76rem;
+  font-size: 0.76rem;
   font-weight: 300;
   color: var(--muted);
   opacity: 0.8;
@@ -430,23 +427,22 @@ h3 {
 }
 
 /* ── CLEAR WATER 2-COL ────────────────────── */
-.clear-layout {
+.school-layout {
   display: grid;
   grid-template-columns: 4fr 2fr;
   gap: 1.75rem;
   align-items: start;
-  padding-top: 1rem;
 }
 
-.clear-img {
+.school-img {
   aspect-ratio: 16 / 9;
   margin-bottom: 0;
 }
 
-.clear-details {
+.school-details {
   display: flex;
   flex-direction: column;
-  padding-top: 0.25rem;
+  /* padding-top: 0.25rem; */
 }
 
 .clear-details .work-bullets {
@@ -478,7 +474,7 @@ h3 {
 }
 
 .site-type {
-   font-size: 0.75rem;
+  font-size: 0.75rem;
   color: #6a6a6a;
   margin-top: 0.1rem;
   text-align: center;
@@ -573,8 +569,6 @@ footer a:hover {
   .clear-img {
     aspect-ratio: 3 / 2;
   }
-
-  
 
   footer {
     flex-direction: column;
