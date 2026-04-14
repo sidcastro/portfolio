@@ -435,6 +435,7 @@ h3 {
   grid-template-columns: 4fr 2fr;
   gap: 1.75rem;
   align-items: start;
+  padding-top: 1rem;
 }
 
 .clear-img {
