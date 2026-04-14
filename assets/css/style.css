@@ -479,17 +479,13 @@ h3 {
   text-align: center;
 }
 
-.site-card {
-  text-decoration: none;
-  display: block;
-}
-
 .site-card .ph {
-  transition: opacity 0.2s;
+  transition: opacity 0.2s, border-color 0.2s;
 }
 
 .site-card:hover .ph {
-  opacity: 0.8;
+  opacity: 0.7;
+  border-color: rgba(0, 0, 0, 0.3);
 }
 
 .site-card:hover .site-name {
