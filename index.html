@@ -20,7 +20,7 @@
     <nav>
       <div class="links">
         <a href="https://www.linkedin.com/in/sidcastro" target="_blank">LinkedIn</a>
-        <a href="mailto:sidneycastro96@gmail.com">Email</a>
+         <button class="email-copy" onclick="copyEmail(this)">Email</button>
       </div>
     </nav>
 
@@ -260,12 +260,22 @@
       <a href="https://www.sidneycastro.com" class="footer-name">Sidney Castro</a>
       <div class="footer-links">
         <a href="https://www.linkedin.com/in/sidcastro" target="_blank">LinkedIn</a>
-        <a href="mailto:sidneycastro96@gmail.com">Email</a>
+         <button class="email-copy" onclick="copyEmail(this)">Email</button>
         <a href="images/sidney_castro_resume.pdf" target="_blank">Resume</a>
       </div>
     </footer>
 
   </div>
+
+  <script>
+  function copyEmail(btn) {
+    navigator.clipboard.writeText('sidneycastro96@gmail.com').then(() => {
+      const orig = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => btn.textContent = orig, 2000);
+    });
+  }
+</script>
 </body>
 
 </html>

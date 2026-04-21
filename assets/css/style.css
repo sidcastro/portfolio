@@ -573,3 +573,18 @@ footer a:hover {
     align-items: flex-start;
   }
 }
+
+.email-copy {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: var(--muted);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.email-copy:hover {
+  color: var(--text);
+}
