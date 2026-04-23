@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32x32.png" type="image/png">
+  <link rel="icon" href="/favicon-16x16.png" type="image/png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sidney Castro — Web Content Manager</title>
@@ -20,7 +23,7 @@
     <nav>
       <div class="links">
         <a href="https://www.linkedin.com/in/sidcastro" target="_blank">LinkedIn</a>
-         <button class="email-copy" onclick="copyEmail(this)">Email</button>
+        <button class="email-copy" onclick="copyEmail(this)">Email</button>
       </div>
     </nav>
 
@@ -260,22 +263,22 @@
       <a href="https://www.sidneycastro.com" class="footer-name">Sidney Castro</a>
       <div class="footer-links">
         <a href="https://www.linkedin.com/in/sidcastro" target="_blank">LinkedIn</a>
-         <button class="email-copy" onclick="copyEmail(this)">Email</button>
-        <!-- <a href="images/sidney_castro_resume.pdf" target="_blank">Resume</a> -->
+        <button class="email-copy" onclick="copyEmail(this)">Email</button>
+        <!-- <a h ref="images/sidney_castro_resume.pdf" target="_blank">Resume</a> -->
       </div>
     </footer>
 
   </div>
 
   <script>
-  function copyEmail(btn) {
-    navigator.clipboard.writeText('sidneycastro96@gmail.com').then(() => {
-      const orig = btn.textContent;
-      btn.textContent = 'Copied!';
-      setTimeout(() => btn.textContent = orig, 2000);
-    });
-  }
-</script>
+    function copyEmail(btn) {
+      navigator.clipboard.writeText('sidneycastro96@gmail.com').then(() => {
+        const orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = orig, 2000);
+      });
+    }
+  </script>
 </body>
 
 </html>
